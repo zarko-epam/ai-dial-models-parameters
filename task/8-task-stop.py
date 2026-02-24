@@ -10,6 +10,7 @@ from task.app.main import run
 run(
     deployment_name='gpt-4o',
     print_only_content=True,
+    stop="**Embedding Layer**"
     # TODO:
     #  1. Use `stop` parameter with value "\n\n"
     #  2. Use `stop` parameter with values ["**Embedding Layer**", "**Transformer Blocks**", "**Training**"]
